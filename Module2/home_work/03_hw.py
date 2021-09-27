@@ -30,4 +30,12 @@
 # 19 189.81 Rub.
 # 20 199.8 Rub.
 
-# TODO: your code here
+
+price = float(input("Введите цену товара: "))
+quantity = 0
+
+
+while quantity <= 30:
+    sum = price * quantity
+    print(quantity, f'{sum:.2f}')
+    quantity += 1
